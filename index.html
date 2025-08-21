@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+  <h1>My Website</h1>
+  <h3>By: Manjot Banger</h3>
+    </header>
+
+    <div class="content">
+        <a href="#text">Responsive Text</a>
+
+        <a href="#fact">Fun Facts</a>
+
+        <a href="#responsive">Responsive Image</a><br><br>
+
+           <h2 id="box">CLick each button to see this text change size!</h2>
+           <button onclick="changeUnit('em')">em</button>
+           <button onclick="changeUnit('rem')">rem</button>
+           <button onclick="changeUnit('vh')">vh</button>
+           <button onclick="changeUnit('vw')">vw</button>
+
+           <p id="explanation"></p><br><br>
+
+          <h2>Click the button below to receive a fun fact!</h2>
+          <button onclick="giveFact()">Get a fun fact</button>
+          <h3 id="fact"></h3><br><br>
+
+          <h2>Resize the window to watch the image below change size!</h2>
+          <img src="https://i.postimg.cc/0Qz1PP6V/cape-town-1-2.jpg">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
